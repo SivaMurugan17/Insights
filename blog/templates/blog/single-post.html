@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+{{post.title}}
+{% endblock  %}
+
+{% block css_style %}
+<link rel="stylesheet" href="{% static 'blog/single-post.css' %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+{% endblock  %}
+
+{% block content %}
+<div class="single_post">
+<h1>{{post.title}}</h1>
+<h2>By-{{post.author}}</h2>
+<p>{{post.content}}</p>
+</div>
+{% endblock  %}

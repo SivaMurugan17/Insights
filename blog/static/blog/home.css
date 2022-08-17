@@ -1,0 +1,72 @@
+#top{
+    background-color: rgb(95, 13, 172);
+    padding: 2rem;
+}
+#welcome h2{
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+#welcome h1{
+    margin-left: 2rem;
+    color: white;
+    font-size:5rem;
+}
+#three_posts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 75%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.26);
+    padding: 1rem;
+}
+#three_posts a{
+    text-decoration: none;
+}
+#latest_posts{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+}
+.items{
+    margin: 1rem auto;
+    width:300px;
+    padding: 1rem;
+    background-color:rgb(203, 180, 223);
+    border-radius: 12px;
+}
+
+.items h2{
+    color: black;
+    font-family: 'Lora', serif;
+}
+.items p{
+    font-family: 'Lora', serif;
+    word-break: break-word;
+}
+
+.items:hover{
+    background-color:  rgb(95, 13, 172);
+    color: white;
+    transition: 0.9s;
+}
+/* .items h2:hover{
+    color: white;
+    transition: 00.9s;
+} */
+#bottom{
+    padding: 1rem;
+    background-color:rgb(255, 255, 70);
+}
+#about{
+    margin-left: 2rem;
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+}

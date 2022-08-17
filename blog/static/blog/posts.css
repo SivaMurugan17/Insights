@@ -1,0 +1,35 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.26);
+    margin: 2rem;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.items{
+    width:350px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgb(203, 180, 223);
+    border-radius: 12px;
+}
+.items h2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.items p{
+    font-family: sans-serif;
+    word-break: break-word;
+}
+
+.items:hover{
+    background-color:  rgb(118, 36, 196);
+    color: white;
+    transition: 0.9s;
+}

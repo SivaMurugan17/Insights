@@ -1,0 +1,15 @@
+.header{
+    background-color: rgb(118, 36, 196);
+    height: 3rem;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
